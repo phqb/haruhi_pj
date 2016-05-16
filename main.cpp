@@ -21,7 +21,7 @@ using namespace sf;
 
 int main() {
     Scene scene(1280, 720, 60, 8, "Game");
-    scene.load_Bgm("res/bgm/technika2.ogg");
+    scene.load_Bgm("res/bgm/undercurrent.ogg");
 	CurrentLayer layer0;
 	Cloud cloud[100];
 	for (int i = 0; i < 100; ++i) {
